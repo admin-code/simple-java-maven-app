@@ -16,6 +16,11 @@ pipeline {
                 }
             }
         }
+        stage('Archieve') {
+            steps {
+                archiveArtifacts artifacts: 'target/my-app-1.0-SNAPSHOT.jar', onlyIfSuccessful: true
+            }
+        }
         stage('Deliver') {
             steps {
                 sh './jenkins/scripts/deliver.sh'
