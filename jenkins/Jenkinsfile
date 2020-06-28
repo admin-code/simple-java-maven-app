@@ -8,6 +8,7 @@ pipeline {
         }
         stage('Test') {
             steps {
+                input message: "Shall we proceed to run the test?"
                 sh 'mvn test'
             }
             post {
