@@ -1,5 +1,9 @@
 # simple-java-maven-app
 
+[![Build Status](http://ec2-13-127-97-212.ap-south-1.compute.amazonaws.com:8080/buildStatus/icon?job=simple-java-app)](http://ec2-13-127-97-212.ap-south-1.compute.amazonaws.com:8080/job/simple-java-app/)
+
+
+
 This repository is for the
 [Build a Java app with Maven](https://jenkins.io/doc/tutorials/build-a-java-app-with-maven/)
 tutorial in the [Jenkins User Documentation](https://jenkins.io/doc/).
