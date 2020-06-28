@@ -16,3 +16,5 @@ the "Deliver" stage of your Pipeline.
 
 Hello world
 This is admin-code
+
+testing CI functionality
